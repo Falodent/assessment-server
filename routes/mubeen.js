@@ -59,8 +59,11 @@ router.delete("/todos/:id", (req, res) => {
  *             type: object
  *             required:
  *               - title
+ *               - message
  *             properties:
  *               title:
+ *                 type: string
+ *               message:
  *                 type: string
  *     responses:
  *       201:
